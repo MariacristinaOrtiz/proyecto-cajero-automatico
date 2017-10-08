@@ -16,4 +16,4 @@ SI division > quantity ENTONCES;
  SI dinero-(quantity *billetes)=0 ENTONCES
   termina la operacion;
   SI NO entonces repetir el procedimeinto de la linea 9 hasta que dinero-(quantity *billetes)=0;
-  
+  FIN DE PROGRAMA
