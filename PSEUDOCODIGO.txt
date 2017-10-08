@@ -1,0 +1,19 @@
+Programa: Numero minimo de billetes a entregar
+INICIO
+CREAR una variable que pida "introduzca el monto solicitado";
+CREAR un objeto "bills" que tenga como propiedades "amount"(denominacion) "quantity"(cantidad);
+GUARDAR los "bills" en un array (denominadoatm) para poder iterarlos;
+ESCRIBIR el monto solicitado (dinero);
+LEER DINERO;
+SI dinero > 0 ENTONCES;
+DIVIDIR, dividion = dinero / Amount;
+SI division > quantity ENTONCES;
+ billetes=quantity;
+ SI NO ENTONCES;
+ billetes= div;
+ FIN SI
+ ENTREGAR billetes;
+ SI dinero-(quantity *billetes)=0 ENTONCES
+  termina la operacion;
+  SI NO entonces repetir el procedimeinto de la linea 9 hasta que dinero-(quantity *billetes)=0;
+  
